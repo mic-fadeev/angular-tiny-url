@@ -1,0 +1,9 @@
+<main>
+  <div>
+    <form novalidate>
+      Url: <input type="text" ng-model="vm.url" /><br />
+      <input type="submit" ng-click="vm.go(vm.url)" value="Go" />
+    </form>
+    <a ng-href="/{{vm.tinyId}}" target="_blank"><span ng-bind="vm.tinyId"></span></a>
+  </div>
+</main>

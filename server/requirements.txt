@@ -1,0 +1,4 @@
+Django
+MySQL-python
+django-cors-headers
+redis
